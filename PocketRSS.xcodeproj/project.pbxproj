@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		9DEF66222DD8B19F00A4A2FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DEF660C2DD8B19B00A4A2FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DEF66132DD8B19B00A4A2FC;
+			remoteInfo = PocketRSS;
+		};
+		9DEF662C2DD8B19F00A4A2FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DEF660C2DD8B19B00A4A2FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DEF66132DD8B19B00A4A2FC;
+			remoteInfo = PocketRSS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DEF66142DD8B19B00A4A2FC /* PocketRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEF66212DD8B19F00A4A2FC /* PocketRSSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketRSSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DEF662B2DD8B19F00A4A2FC /* PocketRSSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketRSSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9DEF66162DD8B19B00A4A2FC /* PocketRSS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PocketRSS;
+			sourceTree = "<group>";
+		};
+		9DEF66242DD8B19F00A4A2FC /* PocketRSSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PocketRSSTests;
+			sourceTree = "<group>";
+		};
+		9DEF662E2DD8B19F00A4A2FC /* PocketRSSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PocketRSSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DEF66112DD8B19B00A4A2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEF661E2DD8B19F00A4A2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEF66282DD8B19F00A4A2FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DEF660B2DD8B19B00A4A2FC = {
+			isa = PBXGroup;
+			children = (
+				9DEF66162DD8B19B00A4A2FC /* PocketRSS */,
+				9DEF66242DD8B19F00A4A2FC /* PocketRSSTests */,
+				9DEF662E2DD8B19F00A4A2FC /* PocketRSSUITests */,
+				9DEF66152DD8B19B00A4A2FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DEF66152DD8B19B00A4A2FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DEF66142DD8B19B00A4A2FC /* PocketRSS.app */,
+				9DEF66212DD8B19F00A4A2FC /* PocketRSSTests.xctest */,
+				9DEF662B2DD8B19F00A4A2FC /* PocketRSSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DEF66132DD8B19B00A4A2FC /* PocketRSS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEF66352DD8B19F00A4A2FC /* Build configuration list for PBXNativeTarget "PocketRSS" */;
+			buildPhases = (
+				9DEF66102DD8B19B00A4A2FC /* Sources */,
+				9DEF66112DD8B19B00A4A2FC /* Frameworks */,
+				9DEF66122DD8B19B00A4A2FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9DEF66162DD8B19B00A4A2FC /* PocketRSS */,
+			);
+			name = PocketRSS;
+			packageProductDependencies = (
+			);
+			productName = PocketRSS;
+			productReference = 9DEF66142DD8B19B00A4A2FC /* PocketRSS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DEF66202DD8B19F00A4A2FC /* PocketRSSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEF66382DD8B19F00A4A2FC /* Build configuration list for PBXNativeTarget "PocketRSSTests" */;
+			buildPhases = (
+				9DEF661D2DD8B19F00A4A2FC /* Sources */,
+				9DEF661E2DD8B19F00A4A2FC /* Frameworks */,
+				9DEF661F2DD8B19F00A4A2FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DEF66232DD8B19F00A4A2FC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9DEF66242DD8B19F00A4A2FC /* PocketRSSTests */,
+			);
+			name = PocketRSSTests;
+			packageProductDependencies = (
+			);
+			productName = PocketRSSTests;
+			productReference = 9DEF66212DD8B19F00A4A2FC /* PocketRSSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DEF662A2DD8B19F00A4A2FC /* PocketRSSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DEF663B2DD8B19F00A4A2FC /* Build configuration list for PBXNativeTarget "PocketRSSUITests" */;
+			buildPhases = (
+				9DEF66272DD8B19F00A4A2FC /* Sources */,
+				9DEF66282DD8B19F00A4A2FC /* Frameworks */,
+				9DEF66292DD8B19F00A4A2FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DEF662D2DD8B19F00A4A2FC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9DEF662E2DD8B19F00A4A2FC /* PocketRSSUITests */,
+			);
+			name = PocketRSSUITests;
+			packageProductDependencies = (
+			);
+			productName = PocketRSSUITests;
+			productReference = 9DEF662B2DD8B19F00A4A2FC /* PocketRSSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DEF660C2DD8B19B00A4A2FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					9DEF66132DD8B19B00A4A2FC = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					9DEF66202DD8B19F00A4A2FC = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 9DEF66132DD8B19B00A4A2FC;
+					};
+					9DEF662A2DD8B19F00A4A2FC = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 9DEF66132DD8B19B00A4A2FC;
+					};
+				};
+			};
+			buildConfigurationList = 9DEF660F2DD8B19B00A4A2FC /* Build configuration list for PBXProject "PocketRSS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DEF660B2DD8B19B00A4A2FC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9DEF66152DD8B19B00A4A2FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DEF66132DD8B19B00A4A2FC /* PocketRSS */,
+				9DEF66202DD8B19F00A4A2FC /* PocketRSSTests */,
+				9DEF662A2DD8B19F00A4A2FC /* PocketRSSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DEF66122DD8B19B00A4A2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEF661F2DD8B19F00A4A2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEF66292DD8B19F00A4A2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DEF66102DD8B19B00A4A2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEF661D2DD8B19F00A4A2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEF66272DD8B19F00A4A2FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DEF66232DD8B19F00A4A2FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DEF66132DD8B19B00A4A2FC /* PocketRSS */;
+			targetProxy = 9DEF66222DD8B19F00A4A2FC /* PBXContainerItemProxy */;
+		};
+		9DEF662D2DD8B19F00A4A2FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DEF66132DD8B19B00A4A2FC /* PocketRSS */;
+			targetProxy = 9DEF662C2DD8B19F00A4A2FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9DEF66332DD8B19F00A4A2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DEF66342DD8B19F00A4A2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DEF66362DD8B19F00A4A2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.illia.suvorov.PocketRSS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DEF66372DD8B19F00A4A2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.illia.suvorov.PocketRSS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DEF66392DD8B19F00A4A2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.illia.suvorov.PocketRSSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketRSS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketRSS";
+			};
+			name = Debug;
+		};
+		9DEF663A2DD8B19F00A4A2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.illia.suvorov.PocketRSSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketRSS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocketRSS";
+			};
+			name = Release;
+		};
+		9DEF663C2DD8B19F00A4A2FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.illia.suvorov.PocketRSSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketRSS;
+			};
+			name = Debug;
+		};
+		9DEF663D2DD8B19F00A4A2FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.illia.suvorov.PocketRSSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketRSS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DEF660F2DD8B19B00A4A2FC /* Build configuration list for PBXProject "PocketRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEF66332DD8B19F00A4A2FC /* Debug */,
+				9DEF66342DD8B19F00A4A2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEF66352DD8B19F00A4A2FC /* Build configuration list for PBXNativeTarget "PocketRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEF66362DD8B19F00A4A2FC /* Debug */,
+				9DEF66372DD8B19F00A4A2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEF66382DD8B19F00A4A2FC /* Build configuration list for PBXNativeTarget "PocketRSSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEF66392DD8B19F00A4A2FC /* Debug */,
+				9DEF663A2DD8B19F00A4A2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DEF663B2DD8B19F00A4A2FC /* Build configuration list for PBXNativeTarget "PocketRSSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DEF663C2DD8B19F00A4A2FC /* Debug */,
+				9DEF663D2DD8B19F00A4A2FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DEF660C2DD8B19B00A4A2FC /* Project object */;
+}
